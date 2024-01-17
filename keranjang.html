@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang</title>
+    <!-- bootstrap css/js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <!-- favicon -->
+    <link rel="shorcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- iconify -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="deskripsi-akun">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="" alt="">
+                        <h3 class="me-2"><iconify-icon icon="codicon:account"></iconify-icon></h3>
+                        <h5 class="me-2">Faris123</h5>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./keranjang.html">
+                <h3 style="margin-left: 40px; color: black;"><iconify-icon icon="iconoir:cart-alt"></iconify-icon></h3>
+            </a>
+            <a class="navbar-brand" href="./home.html"> <img src="./assets/favicon.png" alt=""></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+    <!-- keranjang -->
+    <div class="deskripsi-cart">
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="text-align: left;" scope="col">Items</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><img src="./assets/product-sk4.jpg" alt=""></th>
+                        <td>800.000</td>
+                        <td>1</td>
+                        <td>800.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="section-metod">
+                <div class="row">
+                    <h6>Sub total <b>IDR 800.000</b></h6>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Metode Pembayaran
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mandiri</a></li>
+                            <li><a class="dropdown-item" href="#">BRI</a></li>
+                            <li><a class="dropdown-item" href="#">Dana</a></li>
+                        </ul>
+                    </div>
+                    <h6>08993382635</h6>
+                    <a href="./cek.html" class="btn">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- keranjang -->
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; copyright reserved, 2024</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

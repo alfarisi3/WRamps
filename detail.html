@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Product</title>
+
+    <!-- bootstrap css/js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <!-- favicon -->
+    <link rel="shorcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- iconify -->
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="deskripsi-akun">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="" alt="">
+                        <h3 class="me-2"><iconify-icon icon="codicon:account"></iconify-icon></h3>
+                        <h5 class="me-2">Faris123</h5>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="./keranjang.html">
+                <h3 style="margin-left: 40px; color: black;"><iconify-icon icon="iconoir:cart-alt"></iconify-icon></h3>
+            </a>
+            <a class="navbar-brand" href="./home.html"> <img src="./assets/favicon.png" alt=""></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- breadcrumb -->
+    <div class="deskripsi-breadcrumb">
+        <div class="container">
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./home.html">Beranda</a></li>
+                    <li class="breadcrumb-item"><a href="./product.html">Product</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Detail</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- breadcrumb -->
+
+    <!-- Detail -->
+    <div class="deskripsi-detail">
+        <div class="container">
+            <div class="row">
+                <h1>Doodles Deck</h1>
+                <hr>
+                <div class="col-lg-6">
+                    <img src="./assets/product-sk4.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-spec">
+                        <h3>Spesifikasi</h3>
+                        <hr>
+                        <li>Concave medium to low & high to medium</li>
+                        <li>Kick High, medium, & low</li>
+                        <li>Size 8.0</li> <br>
+                        <h3>Kelengkapan</h3>
+                        <hr>
+                        <li>Deck</li>
+                        <li>Griptape</li>
+                        <li>Sticker set</li>
+                        <li>box</li> <br>
+                        <h3>Harga</h3>
+                        <hr>
+                        <h5>IDR <b style="color:rgb(0, 110, 255);">800.000</b></h5>
+                    </div>
+                    <a href="./keranjang.html" class="btn">Tambah Keranjang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Detail -->
+
+    <!-- footer -->
+    <footer>
+        <h6>&copy; copyright reserved, 2024</h6>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+/* Navbar */
+.d-flex .btn {
+    background-color: #AA8339;
+    color: white;
+}
+.section-index .btn {
+    background-color: #AA8339;
+    color: white;
+}
+.section-index .navbar-brand img {
+    width: 100px;
+    margin-left: 385px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-left: 290px;
+}
+
+.navbar form {
+    margin-left: auto;
+}
+
+.deskripsi-akun .dropdown button {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+}
+
+/* Navbar */
+
+/* footer */
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color: #222;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* footer */
+/* footer */
+
+/* tablist */
+.deskripsi-tablist button {
+    background-color: #AA8339;
+    color: white;
+    width: 150px;
+}
+
+.deskripsi-tablist li {
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* tablist */
+
+/* beranda */
+.deskripsi-beranda .banner img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.deskripsi-beranda p {
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.deskripsi-beranda h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.section-pembayaran img {
+    margin: 100px;
+    margin-top: 50px;
+}
+.section-pembayaran .mandiri img {
+    width: 200px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.section-pembayaran .bri img {
+    width: 140px;
+    margin-left: 100px;
+}
+.section-pembayaran .dana img {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.section-info .col-lg-4 {
+    text-align: center;
+}
+/* beranda */
+
+/* toko */
+.deskripsi-toko {
+    margin-top: 75px;
+}
+.deskripsi-toko img {
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+
+}
+/* toko */
+
+/* tentang kami */
+.deskripsi-kom {
+    margin-top: 50px;
+}
+.deskripsi-kom .logo-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* tentang kami */
+
+/* tutorial */
+.deskripsi-tutorial {
+    margin-top: 50px;
+}
+.deskripsi-tutorial .card {
+    margin-top: 20px;
+}
+/* tutorial */
+
+/* masuk */
+.deskripsi-masuk img {
+    width: 95%;
+}
+.deskripsi-masuk {
+    margin-top: 50px;
+}
+.deskripsi-masuk label {
+    margin-bottom: 15px ;
+}
+.deskripsi-masuk input {
+    margin-bottom: 15px;
+}
+.deskripsi-masuk .section-btn {
+    margin-top: 25px;
+}
+.deskripsi-masuk .section-btn .btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* masuk */
+
+/* daftar */
+.deskripsi-daftar img {
+    width: 95%;
+    border-radius: 10px;
+}
+.deskripsi-daftar {
+    margin-top: 50px;
+}
+.deskripsi-daftar label {
+    margin-bottom: 15px ;
+}
+.deskripsi-daftar input {
+    margin-bottom: 15px;
+}
+.deskripsi-daftar .section-btn {
+    margin-top: 40px;
+}
+.deskripsi-daftar .section-btn .btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+/* daftar */
+
+/* daftar2 */
+.deskripsi-daftar2 img {
+    width: 95%;
+    border-radius: 10px;
+}
+.deskripsi-daftar2 {
+    margin-top: 50px;
+}
+.deskripsi-daftar2 label {
+    margin-bottom: 15px ;
+}
+.deskripsi-daftar2 input {
+    margin-bottom: 15px;
+}
+.deskripsi-daftar2 textarea {
+    margin-bottom: 15px;
+}
+.deskripsi-daftar2 .section-btn {
+    margin-top: 40px;
+}
+.deskripsi-daftar2 .section-btn .btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+/* daftar2 */
+
+/* product */
+.deskripsi-product {
+    margin-top: 50px;
+}
+.deskripsi-product .row {
+    margin-top: 50px;
+}
+.deskripsi-product .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+.deskripsi-product .btn {
+    background-color: #AA8339;
+    color: white;
+}
+/* product */
+
+/* detail */
+.deskripsi-detail h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+.deskripsi-detail img {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+.deskripsi-detail .section-spec {
+    margin-top: 60px;
+}
+
+.deskripsi-detail .btn {
+    margin-top: 40px;
+    margin-left: 71%;
+    background-color: #AA8339;
+    color: white;
+    width: 100x;
+
+}
+/* detail */
+
+/* keranjnang */
+.deskripsi-cart {
+    margin-top: 30px;
+}
+.deskripsi-cart thead th {
+    text-align: center;
+}
+.deskripsi-cart img {
+    border-radius: 7px;
+    width: 200px;
+}
+.deskripsi-cart td {
+    text-align: center;
+}
+
+.deskripsi-cart .section-metod {
+    display: flex;
+    justify-content:end;
+    margin-left: 55%;
+}
+
+.deskripsi-cart h6 b {
+    margin-left: 60%;
+}
+
+.section-metod .dropdown {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-metod .dropdown-menu a {
+    background-color: white;
+    margin-left: 0%;
+    color: black;
+}
+.section-metod a {
+    background-color: #AA8339;
+    color: white;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 57%;
+}
+/* keranjnang */
+
+/* cek */
+.deskripsi-cek img {
+    width: 80%;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+/* cek */
+
+
+
+
+
+
